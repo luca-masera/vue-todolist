@@ -42,6 +42,10 @@ createApp ({
     },
     
     methods :{
+        
+        remove(index){
+            this.lista.splice(index,1)
+        }
 
     }
 
