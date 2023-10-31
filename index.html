@@ -15,8 +15,8 @@
             <header class="text-center pt-4">
                 <img class="w-25" src="img/ita.png" alt="">
                 <div class="pt-5">
-                    <input type="text" class="form-control w-25 d-inline-block mx-3">
-                    <button class="btn btn-danger">addList</button>
+                    <input type="text" class="form-control w-25 d-inline-block mx-3" v-model="todoTextNew">
+                    <button class="btn btn-danger" @click="aggiungi">addList</button>
                 </div>
             </header>
             <main>

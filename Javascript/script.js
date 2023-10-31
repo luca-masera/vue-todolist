@@ -36,6 +36,7 @@ createApp ({
             ],
             
             lastId : 5,
+            todoTextNew : ''
             
 
         }
@@ -45,8 +46,19 @@ createApp ({
         
         remove(index){
             this.lista.splice(index,1)
+        },
+        
+        aggiungi(){
+            this.lastId++;
+            
+            const newObj = {
+                id : this.lastId,
+                text : this.todoTextNew,
+                done : false
+            }
+            this.lista.push(newObj),
+            this.todoTextNew = ''
         }
-
     }
 
 }).mount('#app')
