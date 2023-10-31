@@ -54,7 +54,7 @@ createApp ({
             const newObj = {
                 id : this.lastId,
                 text : this.todoTextNew,
-                done : false
+                done : true
             }
             this.lista.push(newObj),
             this.todoTextNew = ''
