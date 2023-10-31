@@ -44,8 +44,8 @@ createApp ({
     
     methods :{
         
-        remove(index){
-            this.lista.splice(index,1)
+        remove(id){
+            this.lista.splice(id,1)
         },
         
         aggiungi(){
@@ -60,8 +60,8 @@ createApp ({
             this.todoTextNew = ''
         },
         
-        bonus3(index){
-            this.lista[index].done = !this.lista[index].done
+        bonus2(id){
+            this.lista[id].done = !this.lista[id].done
         }
 
     }
