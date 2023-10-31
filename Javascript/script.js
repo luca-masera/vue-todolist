@@ -36,7 +36,7 @@ createApp ({
             ],
             
             lastId : 5,
-            listText : ''
+            
 
         }
     },
