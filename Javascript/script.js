@@ -16,7 +16,7 @@ createApp ({
                 {
                     id : 2,
                     text : 'Comprare il vestito',
-                    done : true
+                    done : false
                 },
                 {
                     id : 3,
@@ -31,7 +31,7 @@ createApp ({
                 {
                     id : 5,
                     text : 'Comprare due birre',
-                    done : true
+                    done : false
                 }
             ]
 
