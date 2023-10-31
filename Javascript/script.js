@@ -33,7 +33,10 @@ createApp ({
                     text : 'Comprare due birre',
                     done : false
                 }
-            ]
+            ],
+            
+            lastId : 5,
+            listText : ''
 
         }
     },
