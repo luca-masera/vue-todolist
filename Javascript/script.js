@@ -58,7 +58,12 @@ createApp ({
             }
             this.lista.push(newObj),
             this.todoTextNew = ''
+        },
+        
+        bonus3(index){
+            this.lista[index].done = !this.lista[index].done
         }
+
     }
 
 }).mount('#app')
